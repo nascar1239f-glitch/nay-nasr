@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827">
+<title>NAY | NASR</title>
+<style>
+:root{--bg:#0b1020;--panel:#151d33;--panel2:#1d2944;--accent:#a78bfa;--accent2:#22d3ee;--text:#f7f7ff;--muted:#b7c1d8;--line:#35415f}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#31245c 0,transparent 38%),radial-gradient(ellipse at 100% 25%,#12465a 0,transparent 34%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;min-height:100vh}
+header{padding:28px 16px 24px;text-align:center;border-bottom:1px solid #ffffff20;background:#090e1dcc}
+.brand{font-size:clamp(48px,12vw,76px);font-weight:1000;letter-spacing:8px;background:linear-gradient(100deg,var(--accent2),var(--accent),#f0abfc);background-clip:text;color:transparent;text-shadow:0 0 36px #a78bfa55}
+.tagline{color:var(--muted);font-size:15px;margin-top:4px}
+main{max-width:920px;margin:26px auto;padding:0 15px}
+.card{background:linear-gradient(145deg,#19233bF2,#111a2eF2);border:1px solid var(--line);border-radius:22px;padding:22px;margin:0 0 20px;box-shadow:0 18px 45px #0005}
+h1,h2{margin:0 0 14px;text-align:center}
+h1{font-size:27px;color:#fff}
+h2{font-size:21px;color:#d9ccff}
+.subtitle{text-align:center;color:var(--muted);line-height:1.8;margin:0 0 18px}
+form{display:flex;gap:10px;flex-wrap:wrap}
+input{min-width:180px;flex:1;padding:16px 15px;border:1px solid #536181;background:#0b1326;color:white;border-radius:13px;font-size:16px;outline:none}
+input:focus{border-color:var(--accent2);box-shadow:0 0 0 3px #22d3ee20}
+button,.btn{border:0;border-radius:13px;padding:15px 23px;background:linear-gradient(110deg,#7c3aed,#0891b2);color:white;font-size:16px;font-weight:bold;cursor:pointer;text-decoration:none;display:inline-block}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:12px}
+.tile{padding:18px 10px;text-align:center;text-decoration:none;color:var(--text);background:linear-gradient(145deg,#202d4a,#141e34);border:1px solid #455477;border-radius:16px;font-weight:bold}
+.tile:hover{border-color:var(--accent2);transform:translateY(-2px)}
+.ico{display:block;font-size:29px;margin-bottom:8px}
+.small{font-size:13px;color:var(--muted);line-height:1.8;text-align:center;margin:14px 0 0}
+.adminstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.stat{background:#0c1529;border:1px solid var(--line);border-radius:14px;padding:17px;text-align:center}
+.stat b{display:block;font-size:28px;color:var(--accent2);margin-bottom:5px}
+footer{text-align:center;padding:20px;color:#8793ad;font-size:12px}
+@media(max-width:520px){.card{padding:17px}form button{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">NAY</div>
+  <div class="tagline">واجهة NAY • موقع NASR</div>
+</header>
+<main>
+  <section class="card">
+    <h1>NASR PROXY</h1>
+    <p class="subtitle">أهلاً بك في نصر — صفحة بداية شخصية للوصول إلى المواقع الرسمية</p>
+    <form id="openForm">
+      <input id="site" type="text" placeholder="اكتب رابط موقع، مثال: example.com" aria-label="رابط الموقع">
+      <button type="submit">فتح الموقع ↗</button>
+    </form>
+    <p class="small">تفتح هذه الصفحة المواقع مباشرة في نافذة جديدة؛ وهي ليست خادم بروكسي ولا تتجاوز قيود الشبكات أو أجهزة المدرسة.</p>
+  </section>
+
+  <section class="card">
+    <h2>المواقع السريعة</h2>
+    <div class="links">
+      <a class="tile" href="https://www.google.com" target="_blank" rel="noopener"><span class="ico">🔎</span>Google</a>
+      <a class="tile" href="https://www.youtube.com" target="_blank" rel="noopener"><span class="ico">▶️</span>YouTube</a>
+      <a class="tile" href="https://www.tiktok.com" target="_blank" rel="noopener"><span class="ico">♪</span>TikTok</a>
+      <a class="tile" href="https://www.facebook.com" target="_blank" rel="noopener"><span class="ico">f</span>Facebook</a>
+      <a class="tile" href="https://www.instagram.com" target="_blank" rel="noopener"><span class="ico">◎</span>Instagram</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>تسجيل الدخول للمواقع</h2>
+    <div class="links">
+      <a class="tile" href="https://accounts.google.com/" target="_blank" rel="noopener">Google Login</a>
+      <a class="tile" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube Login</a>
+      <a class="tile" href="https://www.tiktok.com/login" target="_blank" rel="noopener">TikTok Login</a>
+      <a class="tile" href="https://www.facebook.com/login/" target="_blank" rel="noopener">Facebook Login</a>
+      <a class="tile" href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener">Instagram Login</a>
+    </div>
+    <p class="small">سجّل الدخول داخل الموقع الرسمي فقط. لا تكتب كلمات المرور في صفحة NAY أو NASR.</p>
+  </section>
+
+  <section class="card">
+    <h2>NASR ADMIN — معاينة إحصائيات</h2>
+    <p class="small">هذه أرقام تجريبية داخل المتصفح الحالي فقط، وليست لوحة إدارة متصلة بخادم أو بيانات أشخاص آخرين.</p>
+    <div class="adminstats">
+      <div class="stat"><b id="visitCount">1</b>زيارة لهذه الصفحة</div>
+      <div class="stat"><b id="clickCount">0</b>نقرات روابط</div>
+    </div>
+    <p class="small" id="activity">يتم احتساب النقرات محلياً في هذه الجلسة فقط.</p>
+  </section>
+</main>
+<footer>NAY × NASR • نسخة واجهة تجريبية</footer>
+<script>
+document.getElementById('openForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  let v=document.getElementById('site').value.trim();
+  if(!v)return;
+  if(!/^https?:\/\//i.test(v))v='https://'+v;
+  try{const u=new URL(v);if(!u.hostname.includes('.'))throw 0;window.open(u.href,'_blank','noopener');}
+  catch(_){alert('اكتب رابطاً صحيحاً مثل example.com');}
+});
+let clicks=0;
+document.querySelectorAll('a.tile').forEach(a=>a.addEventListener('click',()=>{
+  clicks++;document.getElementById('clickCount').textContent=clicks;
+  document.getElementById('activity').textContent='آخر نقرة: '+a.textContent.trim();
+}));
+</script>
+</body>
+</html>
